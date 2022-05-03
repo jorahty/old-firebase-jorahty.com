@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background: #111;
+    height: min-content;
+    overflow: visible;
+}
+
+main {
+    margin: auto;
+    max-width: 500px;
+    min-width: 340px;
+    padding: 30px;
+    background: #111;
+    font-size: 15px;
+    color: #ddd;
+    font-family: Menlo;
+    overflow: visible;
+    overflow-x: hidden;
+    height: min-content;
+}
+
+h1 {
+    margin: auto;
+    width: max-content;
+    max-width: calc(100% - 20px);
+    background: #333;
+    border-radius: 0.4em;
+    font-size: 15px;
+    white-space: nowrap;
+    font-weight: 400;
+    padding: 8px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+output {
+    min-width: 40px;
+    background: #333;
+    border-radius: 0.4em;
+    padding: 8px;
+    display: block;
+}
+
+p {
+    display: inline-block;
+    padding: 5px 0;
+    margin: 0;
+}
+
+button {
+    display: block;
+    border: none;
+    border-radius: 50%;
+    background: #006eff;
+    width: 40px;
+    height: 40px ;
+    margin: auto;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0a81ff;
+    background: #00cd78;
+}
+
+input {
+    font-size: 15px;
+    color: #ddd;
+    font-family: Menlo;
+    background: #333;
+    border-radius: 0.4em;
+    border: none;
+    width: 1.8em;
+    padding: 0.2em 0;
+    text-align: center;
+}
+
+input:focus { outline: none; }
+
+i {
+    color: #00cd78;
+    font-style: normal;
+    text-decoration: underline;
+    text-underline-offset: 0.19em;
+    text-decoration-thickness: 0.13em;
+}
+
+footer {
+    color: #ff4970;
+    white-space: pre-wrap;
+}
+
+/* Remove input arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none; /* Chrome, Safari, Edge, Opera */
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield; /* Firefox */
+}
