@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Polygram</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+		<meta property="og:image" content="https://filterforge.com/filters/15737.jpg" />
+  	</head>
+  	<body style="background-color: #fafafa">
+		<div class="content">
+			<br><br>
+			<div class="list">
+				<p class="syntax">{</p>
+				<input type="number" id="p" value="16" min="3" class="text special"></input>
+				<p class="syntax" style="padding: 0px 14px 0px 3px">,</p>
+				<input type="number" id="q" value="5" min="1" class="text special middle"></input>
+				<p class="syntax" style="padding-right: 18px">}</p>
+				<button id="draw" class="text special button">Draw</button>
+			</div>
+			<br>
+			<script src="script.js"></script>
+			<div id="display"></div>
+			<p class="text">
+				A tool for drawing
+				<a href="https://en.wikipedia.org/wiki/Polygram_(geometry)" target="_blank">
+					polygrams
+				</a>
+			</p>
+			<br><br>
+		</div>
+    </body>
+</html>
