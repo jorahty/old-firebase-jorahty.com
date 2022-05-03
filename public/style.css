@@ -1,0 +1,137 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: clamp(0px, 5vw, 30px);
+    background: #fafafa;
+    color: #111;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+section, header > img, .title-card {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+@media (max-width: 680px) {
+    header {
+        display: block;
+    }
+
+    header > img {
+        width: 100%;
+    }
+    
+    .title-card, section {
+        width: unset;
+    }
+}
+
+.title-card {
+    padding: clamp(0px, 2vw, 20px);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+h1, p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.handle {
+    font-weight: 500;
+    color: #666;
+}
+
+.social-media {
+    display: flex;
+    gap: 5px;
+}
+
+.social-media > a {
+    text-decoration: none;
+}
+
+.social-media > a > img {
+    height: 30px;
+}
+
+address {
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid #bfbfbf;
+    width: min-content;
+    margin-top: 10px;
+    line-height: 1;
+    background: #fafafa;
+    cursor: pointer;
+    font-style: normal;
+}
+
+address:hover {
+    border-color: #000;
+}
+
+.decoded {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    cursor: default;
+    user-select: none;
+}
+
+.decoded:hover {
+    border: 1px solid #bfbfbf;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px -10px;
+}
+
+section {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.project {
+    border: 1.5px solid #ccc;
+    background: #f6f6f6;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.project > p {
+    margin-top: 20px;
+}
+
+.project > p > a {
+    text-decoration: none;
+    color: #777;
+    font-weight: 500;
+}
+
+.project > p > a:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+img {
+    fill: red;
+}
+
+path, svg, g {
+    margin-right: 24px;
+    fill: #777 !important;
+    width: 12px;
+}
