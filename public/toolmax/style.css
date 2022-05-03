@@ -1,0 +1,22 @@
+body {
+    background: #111;
+    margin: 80px auto;
+    max-width: 500px;
+}
+
+video {
+    width: 100%;
+}
+
+article {
+    background: #444;
+    color: #ddd;
+    padding: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Verdana;
+    line-height: 1.3;
+    font-weight: 400;
+}
+
+video, article {
+    border-radius: 18px;
+}

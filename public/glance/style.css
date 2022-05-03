@@ -1,0 +1,95 @@
+/* Created entirely by @jorahty */
+
+body {
+    background: #e9ebef;
+    font-family: Verdana;
+    color: #444;
+    width: min-content;
+    margin: 80px auto 0 auto;
+    min-height: 1200px;
+    font-size: 14px;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+main {
+    display: flex;
+    gap: 10px;
+}
+
+hr {
+    border: none;
+    margin: 5px;
+}
+
+#right {
+    flex-direction: column;
+    height: 643px;
+}
+
+section {
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    background: #fff;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+#v {
+    overflow: unset;
+    max-height: 150px;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    line-height: 1;
+    user-select: none;
+    color: #000;
+}
+
+#bottom {
+    margin-top: 10px;
+    width: 1114px;
+    overflow: auto;
+    padding-bottom: 40px;
+}
+
+article {
+    padding: 6px;
+    overflow-y: scroll;
+    display: none;
+    border: 4px solid #fff;
+}
+
+article:focus {
+    outline: none;
+    border: 4px solid #e3e9ff;
+}
+
+a { text-decoration: none; }
+
+a:hover { text-decoration: 3px dotted overline #6c89e7; }
+
+button {
+    height: min-content;
+    padding: 0 2px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+#links {
+    flex-shrink: 0;
+    display: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    color: #999b9f;
+    font-size: 12px;
+}
